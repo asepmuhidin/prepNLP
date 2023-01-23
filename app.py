@@ -32,6 +32,8 @@ Aplikasi pre-processing pada ***NLP (Natural Languange Processing)***
 """)
 
 case_folding=st.checkbox("Case Folding")
+def CF(teks):
+     return teks.lower()
 
 if case_folding:
      st.write("""### Case Folding""")
@@ -41,4 +43,4 @@ if case_folding:
          
      txt_cf=st.text_area("""**Masukkan sembarang teks/paragraph**""",max_chars=200, height=150)
      if st.button('''***Case Folding***''',type='primary'):
-          st.success(txt_cf)
+          st.success(CF(txt_cf))
