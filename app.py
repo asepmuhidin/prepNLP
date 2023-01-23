@@ -1,5 +1,5 @@
 import streamlit as st
-from PIL import Imgae
+from PIL import Image
 
 st.set_page_config(
      page_title="PrepNLP",
@@ -9,7 +9,8 @@ st.set_page_config(
 image=Image.open("images/photok.jpg")
 
 with st.sidebar:
-    st.image(image, width=120)
+    st.image(image, width=120, caption='Asep Muhidin')
+
 
 st.write("""
 # Preprosesing NLP
