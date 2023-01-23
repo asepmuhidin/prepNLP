@@ -32,6 +32,8 @@ Aplikasi pre-processing pada ***NLP (Natural Languange Processing)***
 """)
 
 case_folding=st.checkbox("Case Folding")
+tokenizer=st.checkbox("Tokenizing")
+
 def CF(teks):
      return teks.lower()
 
@@ -47,3 +49,9 @@ if case_folding:
     return teks.lower()'''
           st.code(code, language='python')
           st.success("OUTPUT : " + CF(txt_cf))
+          
+elif tokenizer:
+  st.write("""### Tkenizing""")
+  st.write("""
+  Tokenizing merupakan proses memisahkan atau memecahkan yang awalnya berupa kalimat menjadi kata-kata atau memutus urutan string 
+  menjadi potongan-potongan seperti kata-kata berdasarkan tiap kata yang menyusunnya (Asiyah & Fithriasari, 2016).""")
