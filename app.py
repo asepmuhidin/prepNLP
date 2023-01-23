@@ -40,4 +40,5 @@ if case_folding:
      Tujuannya yaitu kata-kata yang sama tidak terdeteksi berbeda hanya karena perbedaan terdapat huruf kapital.""")
          
      txt_cf=st.text_area("""**Masukkan sembarang teks/paragraph**""",max_chars=200, height=150)
-     
+     if st.button('Case Folding'):
+          st.success(txt_cf)
