@@ -27,6 +27,6 @@ with st.sidebar:
     st.markdown("<h3 style='text-align: center; color: grey;'>Asep Muhidin</h1>", unsafe_allow_html=True) 
 
 st.write("""
-# Preprosesing NLP
+# NLP Preprocessing
 Aplikasi pre-processing pada ***NLP (Natural Languange Processing)***
 """)
