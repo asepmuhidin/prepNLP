@@ -6,7 +6,7 @@ st.set_page_config(
      layout="centered"
  )
 
-image=Image.open("images/photok.jpg")
+image=Image.open("images/photoku.jpg")
 
 with st.sidebar:
     st.image(image, width=120, caption='Asep Muhidin')
