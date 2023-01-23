@@ -39,5 +39,5 @@ if case_folding:
      Case Folding adalah proses perubahan huruf kapital menjadi huruf kecil. 
      Tujuannya yaitu kata-kata yang sama tidak terdeteksi berbeda hanya karena perbedaan terdapat huruf kapital.""")
      
-     txt_cf=st.text_area('Masukkan sembarang teks/paragraph', value='',max_chars(200))
+     txt_cf=st.text_area('Masukkan sembarang teks/paragraph', value='',max_chars=200)
      
