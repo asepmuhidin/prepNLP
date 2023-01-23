@@ -46,4 +46,4 @@ if case_folding:
           code = '''def CF(teks):
           return teks.lower()'''
           st.code(code, language='python')
-          st.success("""**OUTPUT :**{CF(txt_cf)}""")
+          st.success(f"""**OUTPUT :**{CF(txt_cf)}""")
