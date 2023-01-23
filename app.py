@@ -24,9 +24,7 @@ image=Image.open("images/photoku.jpg")
 
 with st.sidebar:
     st.image(image, width=120)
-    "## Asep Muhidin"  
-
-
+    st.markdown("<h3 style='text-align: center; color: grey;'>Asep Muhidin</h1>", unsafe_allow_html=True) 
 
 st.write("""
 # Preprosesing NLP
