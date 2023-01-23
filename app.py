@@ -43,4 +43,7 @@ if case_folding:
          
      txt_cf=st.text_area("""**Masukkan sembarang teks/paragraph**""",max_chars=200, height=150)
      if st.button('''***Case Folding***''',type='primary'):
-          st.success(CF(txt_cf))
+          code = '''def CF(teks):
+                      return teks.lower()'''
+          st.code(code, language='python')
+          st.success('''**OUTPUT :**''', CF(txt_cf))
