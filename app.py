@@ -34,7 +34,7 @@ Aplikasi pre-processing pada ***NLP (Natural Languange Processing)***
 case_folding=st.checkbox("Case Folding")
 
 if case_folding:
-     st.title("Case Folding")
+     st.write("""**Case Folding**""")
      st.write("""
      Case Folding adalah proses perubahan huruf kapital menjadi huruf kecil, 
      Tujuannya yaitu kata-kata yang sama tidak terdeteksi berbeda hanya karena perbedaan terdapat huruf kapital.""")
