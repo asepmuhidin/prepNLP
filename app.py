@@ -40,5 +40,9 @@ if case_folding:
      Tujuannya yaitu kata-kata yang sama tidak terdeteksi berbeda hanya karena perbedaan terdapat huruf kapital.""")
      
      st.write("""**Masukkan sembarang teks/paragraph**""")
-     txt_cf=st.text_area(value='',max_chars=200)
+     txt_cf=st.text_area('',value='''
+     Peristiwa besar yang baru saja terjadi: Gempa bumi berkekuatan 6,2 SR melanda daerah Sulawesi Tengah, 
+     menyebabkan kerusakan property dan beberapa korban jiwa. Kami berdoa untuk keselamatan semua yang terkena 
+     dampak dan berharap agar dapat segera ditangani. #gempabumi #bencanaalam #SulawesiTengah(created by:chatGPT )'''
+     ,max_chars=200)
      
